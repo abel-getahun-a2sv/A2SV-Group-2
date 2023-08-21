@@ -1,5 +1,5 @@
 /* Components */
-import { Providers } from '@/lib/providers'
+// import { Providers } from '@/lib/providers';
 import { Nav } from './components/Nav'
 
 /* Instruments */
@@ -7,7 +7,7 @@ import './styles/globals.css'
 
 export default function RootLayout(props: React.PropsWithChildren) {
   return (
-    <Providers>
+    // <Providers>
       <html lang="en">
         <body>
           <section>
@@ -25,6 +25,6 @@ export default function RootLayout(props: React.PropsWithChildren) {
           </section>
         </body>
       </html>
-    </Providers>
+    // </Providers>
   )
 }
